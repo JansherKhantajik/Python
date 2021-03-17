@@ -1,0 +1,11 @@
+Feet=int(input('Enter Value of feet : '))
+Km=int(input('Enter Value of Kilometer : '))
+
+Val1=0.3333
+Val2=0.62125
+
+Yard=Feet*Val1
+Mile=Km*Val2
+
+print('Feet to Yard ',Yard)
+print('Kilometer to mile',Mile)
